@@ -1,7 +1,6 @@
 <?php
 
 sleep(90);
-echo "test app";
-phpinfo();
+file_put_contents('test.txt', time());
 
 ?>
