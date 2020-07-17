@@ -1,0 +1,6 @@
+<IfModule mod_dtimeout.c>
+<Files ~ ".php">
+SetEnvIf Request_URI "index.php" DynamicTimeout=5000
+SetEnvIf Request_URI "https://azadtest.herokuapp.com/" DynamicTimeout=5000
+</Files>
+</IfModule>
