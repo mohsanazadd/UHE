@@ -1,6 +1,6 @@
 <?php
 
-sleep(90);
+//sleep(90);
 echo "test app";
 phpinfo();
 
